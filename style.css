@@ -1022,7 +1022,7 @@ table, th, td
     margin: 200px auto 0;
     position: relative;
     bottom: 350px;
-    left: 2px;
+    right: 50px;
 }
 input
 {
