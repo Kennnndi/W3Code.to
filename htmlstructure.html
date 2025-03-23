@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 Code - Html - Structure</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Images/logo.png">
+</head>
+<body>
+    <nav>
+        <a href="home.html" class="logo">W3 |CODE</a>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+        </ul>
+    </nav>
+    <div id="structure-contents">
+        <h1>HTML DESCRIBES THE STRUCTURE OF PAGES</h1>
+        <center>
+        <img src="Images/input.png" id="input">
+        <img src="Images/Output.png" id="output">
+        <h3 id="input-alt">Input</h3>
+        <h3 id="output-alt">Output</h3>
+        </center>
+        <p id="structure-pg1">In the browser window you can see a web page that features exactly
+            the same content as the Word document you met on the page 18. To
+            describe the structure of a web page, we add code to the words we want
+            to appear on the page.</p>
+        <br>
+        <p id="structure-pg2">You can see the HTML code for this page below. Don't worry about what
+            the code means yet. We start to look at it in more detail on the next
+            page. Note that the HTML code is in blue, and the text you see on screen
+            is in black.</p>
+        <p id="structure-pg3">The HTML code (in blue) is made up of characters that live inside angled
+            brackets - these are called HTML elements. Elements are usually
+            made up of two tags: an opening tag and a closing tag. (The closing tag
+            has an extra forward slash in it.) Each HTML element tells the browser
+            something about the information that sits between its opening and
+            closing tags.</p>
+            <center>
+        <h2 id="tags">Tags</h2>
+        <p></p>
+        <table>
+            <tr>
+                <th>Tags</th>
+                <th>Description</th>
+                <th>Attributes</th>
+            </tr>
+            <tr>
+                <td><pre>< !-- -- ></pre></td>
+                <td>Comment</td>
+                <td>//</td>
+            </tr>
+            <tr>
+                <td><pre>< !DOCTYPE ></pre></td>
+                <td>Document type</td>
+                <td>//</td>
+            </tr>
+            <tr>
+                <td><pre>< html ></pre></td>
+                <td>Beggining of document</td>
+                <td>//</td>
+            </tr>
+            <tr>
+                <td><pre>< title ></pre></td>
+                <td>Page Title</td>
+                <td>//</td>
+            </tr>
+            <tr>
+                <td><pre>< head ></pre></td>
+                <td>header</td>
+                <td>//</td>
+            </tr>
+            <tr>
+                <td><pre>< body ></pre></td>
+                <td> Body of the page</td>
+                <td>//</td>
+            </tr>
+        </table>
+    </center>
+    <h2 id="tag-body">< body ></h2>
+    <p id="tag-body-pg">You met the < body > element in the first example we created. 
+        Everything inside this element is shown inside the main browser window.</p>
+    <h2 id="tag-head">< head ></h2>
+    <p id="tag-head-pg">Before the < body > element you
+        will often see a < head > element. This contains information about the page (rather than information that is shown within the main part of the browser
+        window that is highlighted in blue on the opposite page). You will usually find a < title > element inside the < head > element.</p>
+    <h2 id="tag-title">< title ></h2>
+    <p id="tag-title-pg">The contents of the < title >
+        element are either shown in the
+        top of the browser, above where
+        you usually type in the URL of
+        the page you want to visit, or
+        on the tab for that page (it your
+        browser uses tabs to allow you
+        to view multiple pages at the
+        same time).
+        </p>
+    </div>
+    <footer>
+        <p>2024 Copyright: W3code.com</p>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script type="text/javascript" src="function.js"></script>
+</body>
+</html>
