@@ -186,7 +186,7 @@ nav.sticky ul li a
     transform-origin: top;
     transform: perspective(1000px) rotateX(-90deg);
     transition: 0.5s;
-    top: 767px;
+    top: 730px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     left: 305px;
